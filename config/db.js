@@ -7,7 +7,7 @@ const connectdb = async ()=>{
         console.log(`DB connected ${mongoose.connection.host}`.bgMagenta.white)
     }
     catch{
-        console.log(`Error in DB connection ${error}`.bgCyan,white)
+        console.log(`Error in DB connection ${error}`.bgCyan.white)
     }
 }
 
